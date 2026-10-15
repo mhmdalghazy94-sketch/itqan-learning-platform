@@ -1,0 +1,8 @@
+.itqan-form { display: grid; gap: 13px; }
+.itqan-field { display: grid; gap: 6px; }
+.itqan-field label { font-size: 12px; font-weight: 600; }
+.itqan-field input, .itqan-field select, .itqan-field textarea { width: 100%; min-height: 40px; padding: 9px 11px; border: 1px solid var(--itqan-line, #e8ece5); border-radius: var(--itqan-radius-small, 8px); outline: 0; background: #fff; color: var(--itqan-ink, #202720); }
+.itqan-field textarea { min-height: 100px; resize: vertical; }
+.itqan-field input:focus, .itqan-field select:focus, .itqan-field textarea:focus { border-color: #8baa86; box-shadow: 0 0 0 3px rgb(54 114 77 / 9%); }
+.itqan-field [aria-invalid="true"] { border-color: #b64b43; }
+.itqan-field-error { color: #a23f38; font-size: 11px; }

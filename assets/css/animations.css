@@ -1,0 +1,6 @@
+@keyframes itqan-fade-up { from { transform: translateY(8px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.itqan-animate-in { animation: itqan-fade-up .35s ease-out both; }
+.itqan-loading { position: relative; overflow: hidden; background: #edf0eb; }
+.itqan-loading::after { position: absolute; inset: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, #ffffff99, transparent); animation: itqan-shimmer 1.3s infinite; content: ""; }
+@keyframes itqan-shimmer { to { transform: translateX(100%); } }
+@media (prefers-reduced-motion: reduce) { .itqan-animate-in, .itqan-loading::after { animation: none; } }

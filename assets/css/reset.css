@@ -1,0 +1,7 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { min-width: 320px; margin: 0; }
+img, svg, video, canvas { display: block; max-width: 100%; }
+button, input, select, textarea { font: inherit; }
+button, [type="button"], [type="submit"], [type="reset"] { cursor: pointer; }
+[hidden] { display: none !important; }

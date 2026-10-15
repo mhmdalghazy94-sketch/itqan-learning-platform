@@ -1,0 +1,10 @@
+.itqan-container { width: min(1120px, calc(100% - 40px)); margin-inline: auto; }
+.itqan-stack { display: grid; gap: 16px; }
+.itqan-cluster { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.itqan-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.itqan-panel { min-width: 0; padding: 18px; border: 1px solid var(--itqan-line, #e8ece5); border-radius: var(--itqan-radius-medium, 11px); background: var(--itqan-white, #fff); }
+@media (max-width: 760px) {
+  .itqan-container { width: calc(100% - 30px); }
+  .itqan-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+}
+@media (max-width: 380px) { .itqan-grid { grid-template-columns: 1fr; } }

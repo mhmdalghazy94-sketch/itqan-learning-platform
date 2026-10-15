@@ -1,0 +1,6 @@
+.itqan-lesson-content { padding: clamp(16px, 3vw, 28px); border: 1px solid var(--itqan-line, #e8ece5); border-radius: var(--itqan-radius-medium, 11px); background: var(--itqan-white, #fff); }
+.itqan-lesson-content p { color: var(--itqan-muted, #737b71); font-size: 13px; line-height: 2; }
+.itqan-lesson-media { display: grid; min-height: 200px; place-items: center; overflow: hidden; border-radius: 9px; background: #edf3e9; }
+.itqan-lesson-media video { width: 100%; max-height: 70vh; }
+.itqan-audio-player { display: flex; align-items: center; gap: 12px; width: 100%; padding: 12px; border: 1px solid var(--itqan-line, #e8ece5); border-radius: 9px; background: #fff; }
+.itqan-audio-player audio { width: 100%; }

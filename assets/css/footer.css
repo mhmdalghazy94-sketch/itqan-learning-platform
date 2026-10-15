@@ -1,0 +1,6 @@
+.itqan-footer { padding-block: 22px; border-top: 1px solid var(--itqan-line, #e8ece5); background: var(--itqan-white, #fff); }
+.itqan-footer-inner { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
+.itqan-footer-links { display: flex; flex-wrap: wrap; gap: 14px; margin-inline-start: auto; }
+.itqan-footer a { color: var(--itqan-muted, #737b71); text-decoration: none; }
+.itqan-footer a:hover { color: var(--itqan-green, #36724d); }
+.itqan-footer-copy { width: 100%; padding-top: 12px; border-top: 1px solid var(--itqan-line, #e8ece5); color: var(--itqan-muted, #737b71); font-size: 10px; }

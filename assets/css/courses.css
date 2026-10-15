@@ -1,0 +1,10 @@
+.itqan-course-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 15px; }
+.itqan-course-card { overflow: hidden; border: 1px solid var(--itqan-line, #e8ece5); border-radius: var(--itqan-radius-medium, 11px); background: var(--itqan-white, #fff); transition: transform .18s ease, box-shadow .18s ease; }
+.itqan-course-card:hover { transform: translateY(-3px); box-shadow: var(--itqan-shadow-card, 0 12px 28px rgb(32 39 32 / 8%)); }
+.itqan-course-card[hidden] { display: none; }
+.itqan-course-cover { display: grid; min-height: 110px; place-items: center; background: #edf3e9; color: var(--itqan-green, #36724d); font-size: 34px; font-weight: 700; }
+.itqan-course-content { padding: 14px; }
+.itqan-course-content h2, .itqan-course-content h3 { margin: 0 0 7px; font-size: 14px; }
+.itqan-course-content p { margin: 0; color: var(--itqan-muted, #737b71); font-size: 11px; line-height: 1.8; }
+@media (max-width: 760px) { .itqan-course-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } }
+@media (max-width: 380px) { .itqan-course-grid { grid-template-columns: 1fr; } }

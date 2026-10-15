@@ -1,0 +1,13 @@
+.itqan-header { position: sticky; z-index: 20; top: 0; border-bottom: 1px solid var(--itqan-line, #e8ece5); background: rgb(255 255 255 / 94%); backdrop-filter: blur(12px); }
+.itqan-header-inner { display: flex; min-height: 68px; align-items: center; gap: 20px; }
+.itqan-nav { display: flex; align-items: center; gap: 18px; margin-inline: auto; }
+.itqan-nav a { color: var(--itqan-muted, #737b71); text-decoration: none; }
+.itqan-nav a:hover, .itqan-nav a[aria-current="page"] { color: var(--itqan-green, #36724d); }
+.itqan-nav-toggle { display: none; }
+@media (max-width: 650px) {
+  .itqan-header-inner { min-height: 60px; }
+  .itqan-nav-toggle { display: grid; place-items: center; }
+  .itqan-nav[data-open="false"] { display: none; }
+  .itqan-nav[data-open="true"] { position: absolute; inset: 100% 0 auto; display: grid; gap: 0; padding: 8px 16px; border-bottom: 1px solid var(--itqan-line, #e8ece5); background: var(--itqan-paper, #f7f8f5); }
+  .itqan-nav[data-open="true"] a { padding: 10px 0; }
+}

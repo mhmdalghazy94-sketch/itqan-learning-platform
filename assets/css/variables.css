@@ -1,0 +1,13 @@
+:root {
+  --itqan-ink: #202720;
+  --itqan-muted: #737b71;
+  --itqan-green: #36724d;
+  --itqan-green-dark: #28583b;
+  --itqan-paper: #f7f8f5;
+  --itqan-white: #fff;
+  --itqan-line: #e8ece5;
+  --itqan-radius-small: 8px;
+  --itqan-radius-medium: 11px;
+  --itqan-shadow-card: 0 12px 28px rgb(32 39 32 / 8%);
+  --itqan-font-arabic: "Noto Sans Arabic", Tahoma, sans-serif;
+}
